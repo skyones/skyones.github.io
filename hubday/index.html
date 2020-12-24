@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -45,17 +46,17 @@
         <!-- top -->
         <div class="top">
             <div class="top_conts">
-                <h1><a href="../"><img src="../images/logo.png" alt="KB Innovation HUB"></a></h1>
+                <h1><a href="/"><img src="../images/logo.png" alt="KB Innovation HUB"></a></h1>
                 <!-- gnb -->
                 
                 <ul class="gnb">
-                    <li><a href="../aboutus/">ABOUT HUB</a></li>
+                    <li><a href="/aboutus/">ABOUT HUB</a></li>
                     <li>
-                        <a href="../kbstarters/">KB스타터스</a>
+                        <a href="/kbstarters/">KB스타터스</a>
                         <ul class="gnb_sub">
-                            <li><a href="../kbstarters/">스타터스 소개</a></li>
-                            <li><a href="../apply/">지원하기</a></li>
-                            <li><a href="../faq/">FAQ</a></li>
+                            <li><a href="/kbstarters/">스타터스 소개</a></li>
+                            <li><a href="/apply/">지원하기</a></li>
+                            <li><a href="/faq/">FAQ</a></li>
                         </ul>
                     </li>
                     <li><a href="https://kbinnovationhub.com/hubday" class="selected">HUB DAY</a></li>
@@ -67,16 +68,16 @@
                     <div class="gnb_m_wrap">
                         <button type="button" class="close_menu"><img src="../images/close_menu.png"></button>
                         <ul class="gnb_m">
-                            <li><a href="../aboutus/">ABOUT HUB</a></li>
+                            <li><a href="/aboutus/">ABOUT HUB</a></li>
                             <li>
-                                <a href="../kbstarters/">KB스타터스</a>
+                                <a href="/kbstarters/">KB스타터스</a>
                                 <ul class="gnb_sub_m">
-                                    <li><a href="../kbstarters/">스타터스 소개</a></li>
-                                    <li><a href="../apply/">지원하기</a></li>
-                                    <li><a href="../faq/">FAQ</a></li>
+                                    <li><a href="/kbstarters/">스타터스 소개</a></li>
+                                    <li><a href="/apply/">지원하기</a></li>
+                                    <li><a href="/faq/">FAQ</a></li>
                                 </ul>
                             </li>
-                            <li><a href="">HUB DAY</a></li>
+                            <li><a href="/hubday/">HUB DAY</a></li>
                         </ul>
                     </div>
                     
@@ -553,9 +554,9 @@
                 event.preventDefault();
                 var videoSrc = $(this).data("src");
                 var video = '<video autoplay controls playsinline id="oc_video">' +
-                            '    <source src="https://kbinnovationhub.gitlab.io/hubday/'&#32;+&#32;videoSrc&#32;+&#32;'" type="video/mp4">' +
+                            '    <source src="' + videoSrc + '" type="video/mp4">' +
                             '</video>';
-                var video2 = '<iframe src="https://kbinnovationhub.gitlab.io/hubday/'&#32;+&#32;videoSrc&#32;+&#32;'" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>';
+                var video2 = '<iframe src="' + videoSrc + '" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>';
                 $(".video_pop_conts").append(video2);
                 $(".video_layer").fadeIn("fast");
             });

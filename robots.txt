@@ -1,0 +1,4 @@
+User-agent: *
+Sitemap: kbinnovationhub.com/sitemap.xml
+Disallow: /ghost/
+Disallow: /p/

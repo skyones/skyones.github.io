@@ -7,11 +7,16 @@
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="../favicon.png">
-    <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css%3Fv=25dcf593d9.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css%3Fv=f2f25d008f.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/swiper.min.css%3Fv=f2f25d008f.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css%3Fv=f2f25d008f.css" />
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i%7CPT+Sans:400,400i,700,700i" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="../assets/css/mediumish.css%3Fv=25dcf593d9.css" />
-    <script src="../assets/js/jquery.min.js%3Fv=25dcf593d9"></script>
+    <link rel="stylesheet" type="text/css" href="../assets/css/mediumish.css%3Fv=f2f25d008f.css" />
+    <script src="../assets/js/jquery.min.js%3Fv=f2f25d008f"></script>
+    <script src="../assets/js/swiper.min.js%3Fv=f2f25d008f"></script>
+    <script src="../assets/js/imagesloaded.pkgd.min.js%3Fv=f2f25d008f"></script>
+    <script src="../assets/js/common.js%3Fv=f2f25d008f"></script>
     <link rel="shortcut icon" href="../favicon.png" type="image/png" />
     <link rel="canonical" href="" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
@@ -192,63 +197,53 @@
 </script>
 </head>
 
-<body class="post-template tag-hub-day tag-event tag-blog">
+<body>
+<div class="body_wrap top_fixed2">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation">
+            <!-- top -->
+        <div class="top">
+            <div class="top_conts">
+                <h1><a href="../"><img src="../content/images/2020/05/KBInnovationHUB_Logo_combined_2640x710.png" alt="KB Innovation HUB"></a></h1>
+                <!-- gnb -->
+                
+                <ul class="gnb">
+                    <li><a href="../aboutus/">ABOUT HUB</a></li>
+                    <li>
+                        <a href="kbinnovationhub.com/kbstarters/">KB스타터스</a>
+                        <ul class="gnb_sub">
+                            <li><a href="kbinnovationhub.com/kbstarters/">스타터스 소개</a></li>
+                            <li><a href="../apply/">지원하기</a></li>
+                            <li><a href="../faq/">FAQ</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="https://kbinnovationhub.com/hubday" class="selected">HUB DAY</a></li>
+                </ul>
+                <!-- //gnb -->
+                <!-- mobile menu -->                
+                <button type="button" class="btn_menu"><img src="../assets/images/btn_menu.png%3Fv=f2f25d008f"></button>
+                <div class="gnb_m_bg">
+                    <div class="gnb_m_wrap">
+                        <button type="button" class="close_menu"><img src="../assets/images/close_menu.png%3Fv=f2f25d008f"></button>
+                        <ul class="gnb_m">
+                            <li><a href="../aboutus/">ABOUT HUB</a></li>
+                            <li>
+                                <a href="kbinnovationhub.com/kbstarters/">KB스타터스</a>
+                                <ul class="gnb_sub_m">
+                                    <li><a href="kbinnovationhub.com/kbstarters/">스타터스 소개</a></li>
+                                    <li><a href="../apply/">지원하기</a></li>
+                                    <li><a href="../faq/">FAQ</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">HUB DAY</a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                <!-- //mobile menu -->
+            </div>
+        </div>
+        <!-- //top -->
 
-   <div class="container">
-      
-      <!-- Begin Logo -->
-      <a class="navbar-brand" href="../">
-         <img src="../content/images/2020/05/KBInnovationHUB_Logo_combined_2640x710.png" alt="logo">
-      </a>           
-      <!-- End Logo -->
-
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mediumishtopmenu" aria-controls="mediumishtopmenu" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="mediumishtopmenu">
-         
-         <!-- Begin Menu -->
-         <ul class="navbar-nav mr-auto">
-            <li class="nav-item nav-about-hub">
-            <a class="nav-link" href="../aboutus/">About HUB</a>
-            </li>
-            <li class="nav-item nav-kbseutateoseu">
-            <a class="nav-link" href="../2020-kbstarters/">KB스타터스</a>
-            </li>
-            <li class="nav-item nav-faq">
-            <a class="nav-link" href="../faq/">FAQ</a>
-            </li>
-            <li class="nav-item nav-beulrogeu">
-            <a class="nav-link" href="../blog/">블로그</a>
-            </li>
-            <li class="nav-item nav-jiweonhagi">
-            <a class="nav-link" href="../apply/">지원하기</a>
-            </li>
-            <li class="nav-item nav-hubday">
-            <a class="nav-link" href="http://kbinnovationhub.com/hubday">HUBDAY</a>
-            </li>
-         </ul>
-         <!-- End Menu -->
-         
-          <!-- Begin Search 
-         <form id="nav-search-form" class="form-inline my-2 my-lg-0 hidden-md-down"> 
-           <input id="search-input" class="form-control mr-sm-2" type="text" placeholder="Search..." />
-            <span type="button" value="search" class="search-icon"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M20.067 18.933l-4.157-4.157a6 6 0 1 0-.884.884l4.157 4.157a.624.624 0 1 0 .884-.884zM6.5 11c0-2.62 2.13-4.75 4.75-4.75S16 8.38 16 11s-2.13 4.75-4.75 4.75S6.5 13.62 6.5 11z"></path></svg></span> 
-            <div id="search-result">
-              <ul id="search-results" class="search-results col-md-12" class="list-group">
-              </ul>
-            </div> 
-         </form>
-          End Search -->
-         
-      </div>
-      
-   </div>
-   
-</nav>
 
 
     <div class="container">
@@ -397,19 +392,27 @@
 
 <div class="container">
 
+     </div>
+        <!-- footer -->
         <div class="footer">
-      		<p class="pull-right">
-      			 Copyright 2020. KB Innovation HUB All Rights Reserved. 
-      		</p>
-      		<div class="clearfix">
-      		</div>
-      	</div>
-    </div>
+            <button type="button" class="go_top"><img src="../assets/images/btn_svg/go_top_icon02_darkgray.svg%3Fv=f2f25d008f"></button>
+            <div class="footer_conts">
+                <img src="../assets/images/logo_footer.png%3Fv=f2f25d008f" class="logo_footer">
+                <p>Copyright 2020. KB Innovation HUB All Rights Reserved.</p>
+                <div class="sns_link">
+                    <a href="#"><img src="../assets/images/btn_svg/Facebook_icon03_white.svg%3Fv=f2f25d008f"></a>
+                    <a href="#"><img src="../assets/images/btn_svg/Twitter_icon03_white.svg%3Fv=f2f25d008f"></a>
+                    <a href="#"><img src="../assets/images/btn_svg/Linkedin_icon03_white.svg%3Fv=f2f25d008f"></a>
+                </div>
+            </div>
+            <input id="url_copy">
+        </div>
+        <!-- //footer -->
 
-    
-    <script src="../assets/js/bootstrap.bundle.min.js%3Fv=25dcf593d9"></script>
-    <script src="../assets/js/masonry.pkgd.min.js%3Fv=25dcf593d9"></script>
-    <script src="../assets/js/mediumish.js%3Fv=25dcf593d9"></script>
-
+     
+    <script src="../assets/js/bootstrap.bundle.min.js%3Fv=f2f25d008f"></script>
+    <script src="../assets/js/masonry.pkgd.min.js%3Fv=f2f25d008f"></script>
+    <script src="../assets/js/mediumish.js%3Fv=f2f25d008f"></script>
+</div>
 </body>
 </html>

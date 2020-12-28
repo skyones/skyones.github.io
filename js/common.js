@@ -120,7 +120,7 @@ $(document).ready(function(){
             },
         });
     } else {
-        return;
+        //return;
     }
     $(".close_oneline").on("click", function(){
         $(".oneline_wrap").slideUp("fast");

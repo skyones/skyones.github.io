@@ -202,6 +202,30 @@
                 </div>
             </div>
             <!-- //section -->
+	    <!-- section section4 -->
+            <div class="section">
+                <div class="article">
+                    <div class="tit_box">
+                        <h3>
+                            <span>관악 KB Innovation HUB</span>
+                            입주 공간
+                        </h3>
+                        <p>
+                            8~9인 규모의 스타트업 7개사가 사용하는 독립공간 근무환경과<br>
+                            6~12인 규모의 회의실, 키친, OA공간등의 환경을 구축하고 있습니다. <br>
+                            # 2021년 7월 오픈 예정
+                        </p>
+                    </div>
+
+                    <div class="contact_box">
+                        <h5><span class="bg_yel">연락처</span></h5>
+                        <p>E-mail : innohub.khg@kbfg.com</p>
+                        <p>서울특별시 관악구 호암로 597, 5~6층</p>
+                    </div>
+                    <div id="map"></div>
+                </div>
+            </div>
+            <!-- //section -->
         </div>
         <!-- //container -->
 
@@ -221,8 +245,29 @@
         </div>
         <!-- //footer -->
     </div>
+	
+    <!-- 사용하는 구글맵 api key 넣어주세요 -->
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmScF7TwHGzYNHYP54sbekitUbPNe9sWE&callback=initMap&libraries=&v=weekly"></script>
+    
     
     <script>
+	/* 구글 지도 */
+        function initMap() {
+            
+            const kbHub = { lat: 37.47077133999764, lng: 126.93324871803617 };
+
+           
+            const map = new google.maps.Map(document.getElementById("map"), {
+                center: kbHub,
+                zoom: 18,
+            });
+
+            const marker = new google.maps.Marker({
+                position: kbHub,
+                map: map,
+            });
+        }
+	    
         $(document).ready(function(){
             $(".complete").on("click", function(){
                 return false;

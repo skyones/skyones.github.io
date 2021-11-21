@@ -1,151 +1,217 @@
-
-
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>hubday</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- open graph, SNS 공유용 -->
     <meta property="og:type" content="website">
-	<meta property="og:title" content="HUB DAY"><!-- 제목 -->
-	<meta property="og:description" content="우수 스타트업이 KB금융그룹과 함께 성장할 수 있도록 지원합니다."><!-- 설명 -->
-	<meta property="og:image" content="https://kbinnovationhub.com/images/og_kb_hub_day.png"><!-- 대표이미지, 절대경로! -->
+    <meta property="og:title" content="KB Innovation HUB"><!-- 제목 -->
+    <meta property="og:description" content="우수 스타트업이 KB금융그룹과 함께 성장할 수 있도록 지원합니다."><!-- 설명 -->
+    <meta property="og:image" content="https://kbinnovationhub.com/images/og_kb_hub.png"><!-- 대표이미지, 절대경로! -->
     <!-- //open graph, SNS 공유용 -->
-    <title>KB Innovation HUB</title>
-    <link rel="shortcut icon" href="../KB_favicon.ico">
-    <link rel="stylesheet" href="../css/swiper.min.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <script src="../js/jquery-3.2.1.min.js"></script>
-    <script src="../js/swiper.min.js"></script>
-    <script src="../js/imagesloaded.pkgd.min.js"></script>
-    <script src="../js/common.js"></script>
+
+    <!-- link rel="stylesheet" href="/assets/main/css/bootstrap.min.css?v=9f3d57f51b" /-->
+    <link rel="stylesheet" href="/assets/main/css/swiper.min.css?v=9f3d57f51b" />
+    <link rel="stylesheet" href="/assets/main/css/mediumish.css?v=9f3d57f51b" />
+    <link rel="stylesheet" href="/assets/main/css/style.css?v=9f3d57f51b" />
+    <script src="/assets/main/js/jquery-3.2.1.min.js?v=9f3d57f51b"></script>
+    <script src="/assets/main/js/swiper.min.js?v=9f3d57f51b"></script>
+    <script src="/assets/main/js/imagesloaded.pkgd.min.js?v=9f3d57f51b"></script>
+    <script src="/assets/main/js/common.js?v=9f3d57f51b"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="canonical" href="https://kbinnovationhub.com/hubday/" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    
+    <meta property="og:site_name" content="KB Innovation HUB" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="hubday" />
+    <meta property="og:description" content="2020 ONLINE HUB DAY                             2019 HUB DAY                                                                                                                                                                                                                                                              KB스타터스와 함께 하는                                     2020 ONLINE HUB DAY                                                                                                                                                                                                                                                                                                                                                                                                                                   브라우저가 동영상을 지원하지 않습니다.                                                                                          --&gt;                                                                                                                                                           VIDEO                                         KB이노베이션허브 운영현황                                         2020년 스타트업 스케일업 성과 요약 ▲스타트업 선발 ▲제휴 ▲투자 ▲공간 ▲글로벌 지원 등                                                                                                                                                                                                                                                                           --&gt;                                                                                                                                                                                                                                                                                                                                                                                                                          브라우저가 동영상을 지원하지 않습니다.                                                                                          --&gt;                                                                                                                                                           VIDEO                                         KB스타터스 협업 사례 5                                         ▲알고리즘랩스 ▲핀투비 ▲로민  ▲올거나이즈코리아" />
+    <meta property="og:url" content="https://kbinnovationhub.com/hubday/" />
+    <meta property="og:image" content="https://kbinnovationhub.com/content/images/2021/10/og_kb_hub-1.png" />
+    <meta property="article:published_time" content="2021-09-18T20:51:54.000Z" />
+    <meta property="article:modified_time" content="2021-10-03T13:27:57.000Z" />
+    <meta property="article:publisher" content="https://www.facebook.com/KBInnovationHUB" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="hubday" />
+    <meta name="twitter:description" content="2020 ONLINE HUB DAY                             2019 HUB DAY                                                                                                                                                                                                                                                              KB스타터스와 함께 하는                                     2020 ONLINE HUB DAY                                                                                                                                                                                                                                                                                                                                                                                                                                   브라우저가 동영상을 지원하지 않습니다.                                                                                          --&gt;                                                                                                                                                           VIDEO                                         KB이노베이션허브 운영현황                                         2020년 스타트업 스케일업 성과 요약 ▲스타트업 선발 ▲제휴 ▲투자 ▲공간 ▲글로벌 지원 등                                                                                                                                                                                                                                                                           --&gt;                                                                                                                                                                                                                                                                                                                                                                                                                          브라우저가 동영상을 지원하지 않습니다.                                                                                          --&gt;                                                                                                                                                           VIDEO                                         KB스타터스 협업 사례 5                                         ▲알고리즘랩스 ▲핀투비 ▲로민  ▲올거나이즈코리아" />
+    <meta name="twitter:url" content="https://kbinnovationhub.com/hubday/" />
+    <meta name="twitter:image" content="https://static.ghost.org/v4.0.0/images/publication-cover.jpg" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="HUB" />
+    <meta property="og:image:width" content="600" />
+    <meta property="og:image:height" content="315" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "KB Innovation HUB",
+        "url": "https://kbinnovationhub.com/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://kbinnovationhub.com/favicon.ico"
+        }
+    },
+    "author": {
+        "@type": "Person",
+        "name": "HUB",
+        "url": "https://kbinnovationhub.com/author/hub/",
+        "sameAs": []
+    },
+    "headline": "hubday",
+    "url": "https://kbinnovationhub.com/hubday/",
+    "datePublished": "2021-09-18T20:51:54.000Z",
+    "dateModified": "2021-10-03T13:27:57.000Z",
+    "description": "  * 2020 ONLINE\n   HUB DAY\n * 2019\n   HUB DAY\n\n * \n * \n *   * \n    *   KB스타터스와 함께 하는2020 ONLINE HUB DAY \n       *  VIDEO KB이노베이션허브 운영현황\n         2020년 스타트업 스케일업 성과 요약 ▲스타트업 선발 ▲제휴 ▲투자 ▲공간 ▲글로벌 지원 등\n         \n         [javascript:snsShare(&#x27;facebook&#x27;,&#x27;https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_1&#x27;)]\n          \n         [javascript:snsShare(&#x27;twitter&#x27;,&#x27;https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_1&#x27;)]\n          \n         [javascript:snsShare(&#x27;linkedin&#x27;,&#x27;https://kbinnovationhub.com/hubda",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://kbinnovationhub.com/"
+    }
+}
+    </script>
+
+    <meta name="generator" content="Ghost 4.17" />
+    <link rel="alternate" type="application/rss+xml" title="KB Innovation HUB" href="https://kbinnovationhub.com/rss/" />
+    
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+ <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113411139-1"></script><style>:root {--ghost-accent-color: #fdbe10;}</style>
+
 </head>
+
 <body>
     <div class="body_wrap">
-        <!-- oneline news -->
-        <!--
+                <!-- oneline news -->
         <div class="oneline_wrap">
             <div class="oneline_conts">
                 <ul class="oneline_news swiper-wrapper">
                     <li class="swiper-slide">
-                        <a href="#"><strong>KB스타터스 2020</strong> 하반기 21개사 선정이 완료되었습니다.</a>
-                    </li>
-                    <li class="swiper-slide">
-                        <a href="#"><strong>KB스타터스 2020</strong> 하반기 21개사 선정이 완료되었습니다.</a>
-                    </li>
-                    <li class="swiper-slide">
-                        <a href="#"><strong>KB스타터스 2020</strong> 하반기 21개사 선정이 완료되었습니다.</a>
+                          <a href="https://kbinnovationhub.com/kbstarters/"><strong>2021 하반기 정시모집 선정되었습니다.</strong></a>
                     </li>
                 </ul>
-                <button type="button" class="close_oneline"><img src="../images/btn_close_01.png"></button>
+                <button type="button" class="close_oneline"><img src="/assets/images/btn_close_01.png?v=9f3d57f51b"></button>
             </div>
         </div>
-        -->
         <!-- //oneline news -->
 
-        <!-- top -->
+                <!-- top -->
         <div class="top">
             <div class="top_conts">
-                <h1><a href="/"><img src="../images/logo.png" alt="KB Innovation HUB"></a></h1>
+                <h1><a href="/"><img src="/assets/images/logo.png?v=9f3d57f51b" alt="KB Innovation HUB"></a></h1>
+
                 <!-- gnb -->
-                
                 <ul class="gnb">
-                    <li><a href="/aboutus/">ABOUT HUB</a></li>
-                    <li>
-                        <a href="/kbstarters/">KB스타터스</a>
-                        <ul class="gnb_sub">
-                            <li><a href="/kbstarters/">소개</a></li>
-                            <li><a href="/apply/">지원하기</a></li>
-                            <li><a href="/faq/">FAQ</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="https://kbinnovationhub.com/hubday" class="selected">HUB DAY</a></li>
+                      <li class="nav-about-hub "><a href="https://kbinnovationhub.com/aboutus/" >About HUB</a>
+                      </li>
+                      <li class="nav-kbseutateoseu "><a href="https://kbinnovationhub.com/kbstarters/" >KB스타터스</a>
+                              <ul class="gnb_sub">
+                              <li><a href="/kbstarters/">소개</a></li>
+                              <li><a href="/apply/">지원하기</a></li>
+                              <li><a href="/faq/">FAQ</a></li>
+                            </ul>
+                      </li>
+                      <li class="nav-hub-day active"><a href="https://kbinnovationhub.com/hubday/"  class='selected' >HUB DAY</a>
+                      </li>
                 </ul>
                 <!-- //gnb -->
-                <!-- mobile menu -->                
-                <button type="button" class="btn_menu"><img src="../images/btn_menu.png"></button>
+                <!-- mobile menu -->
+                <button type="button" class="btn_menu"><img src="/assets/images/btn_menu.png?v=befc542f62"></button>
                 <div class="gnb_m_bg">
                     <div class="gnb_m_wrap">
-                        <button type="button" class="close_menu"><img src="../images/close_menu.png"></button>
+                        <button type="button" class="close_menu"><img src="/assets/images/close_menu.png?v=befc542f62"></button>
                         <ul class="gnb_m">
-                            <li><a href="/aboutus/">ABOUT HUB</a></li>
-                            <li>
-                                <a href="/kbstarters/">KB스타터스</a>
-                                <ul class="gnb_sub_m">
-                                    <li><a href="/kbstarters/">스타터스 소개</a></li>
-                                    <li><a href="/apply/">지원하기</a></li>
-                                    <li><a href="/faq/">FAQ</a></li>
-                                </ul>
+                            <li class="nav-about-hub "><a href="https://kbinnovationhub.com/aboutus/">About HUB</a>
                             </li>
-                            <li><a href="/hubday/">HUB DAY</a></li>
+                            <li class="nav-kbseutateoseu "><a href="https://kbinnovationhub.com/kbstarters/">KB스타터스</a>
+                              <ul class="gnb_sub_m">
+                              <li><a href="/kbstarters/">소개</a></li>
+                              <li><a href="/apply/">지원하기</a></li>
+                              <li><a href="/faq/">FAQ</a></li>
+                            </ul>
+                            </li>
+                            <li class="nav-hub-day active selected"><a href="https://kbinnovationhub.com/hubday/">HUB DAY</a>
+                            </li>
                         </ul>
                     </div>
-                    
+
                 </div>
                 <!-- //mobile menu -->
-            </div>
-        </div>
-        <!-- //top -->
+             </div>
+         </div>
+
 
         <!-- container -->
-        <div class="container">
-            <!-- main banner -->
-            <div class="sub_banner">
-                <div class="sub_banner_conts">
-                    <h2>KB스타터스 글로벌 도약의<br>발판이 되겠습니다</h2>
-                    <img src="../images/sub_banner_05.png" class="sub_banner_img">
-                </div>
-            </div>
-            <!-- //main banner -->
 
-            <!-- section section1 -->
-            <div class="section">
-                <div class="sns_link">
-                    <a href="javascript:snsShare('facebook','')"><img src="../images/btn_svg/Facebook_icon02_darkgray.svg"></a>
-                    <a href="javascript:snsShare('twitter','')"><img src="../images/btn_svg/Twitter_icon02_darkgray.svg"></a>
-                    <a href="javascript:snsShare('linkedin','')"><img src="../images/btn_svg/Linkedin_icon02_darkgray.svg"></a>
-                    <a href="javascript:urlCopy('')" title="url 복사하기"><img src="../images/btn_svg/LinkCopy_icon02_darkgray.svg"></a>
+
+          
+<!-- container -->
+<div class="container">
+    <!-- main banner -->
+    <div class="sub_banner">
+        <div class="sub_banner_conts">
+            <h2>KB스타터스 글로벌 도약의<br>발판이 되겠습니다</h2>
+            <img src="/assets/images/sub_banner_05.png?v=9f3d57f51b" class="sub_banner_img">
+        </div>
+    </div>
+    <!-- //main banner -->
+
+    <!-- section section1 -->
+    <div class="section">
+                     <div class="section"> 
+               <div class="sns_link">
+                    <a href="javascript:snsShare('facebook','')"><img src="/assets/images/btn_svg/Facebook_icon02_darkgray.svg"></a>
+                    <a href="javascript:snsShare('twitter','')"><img src="/assets/images/btn_svg/Twitter_icon02_darkgray.svg"></a>
+                    <a href="javascript:snsShare('linkedin','')"><img src="/assets/images/btn_svg/Linkedin_icon02_darkgray.svg"></a>
+                    <a href="javascript:urlCopy('')" title="url 복사하기"><img src="/assets/images/btn_svg/LinkCopy_icon02_darkgray.svg"></a>
                 </div>
-                <div class="article nomarginbt">
-                    <div class="flex_box">
-                        <div class="tit_box">
-                            <h3>
-                                <span>KB스타터스</span>
-                                HUB DAY
-                            </h3>
-                            <p>
-                                KB이노베이션허브의 스타트업 스케일업 성과를 <br>
-                                소개하는 온라인 전시회입니다. <br>
-                                KB스타터스 협업사례, 글로벌 스케일업 소식, <br>
-                                입주사 에피소드 등 다채로운 영상 콘텐츠를 통해 <br>
-                                한 해를 조망합니다.
-                                <!--KB Innovation HUB와 함께한 KB스타터스의<br>
+             </div>
+        <div class="article nomarginbt">
+            <div class="flex_box">
+                <div class="tit_box">
+                    <h3>
+                        <span>KB스타터스</span>
+                        HUB DAY
+                    </h3>
+                    <p>
+                        KB이노베이션허브의 스타트업 스케일업 성과를 <br>
+                        소개하는 온라인 전시회입니다. <br>
+                        KB스타터스 협업사례, 글로벌 스케일업 소식, <br>
+                        입주사 에피소드 등 다채로운 영상 콘텐츠를 통해 <br>
+                        한 해를 조망합니다.
+                        <!--KB Innovation HUB와 함께한 KB스타터스의<br>
                                 2020년 성과를 보여드리는 온라인 행사입니다.<br>
                                 HUB의 2020년 주요 성과와 KB금융그룹과 협업 사례,<br>
                                 글로벌 진출 사례를 소개합니다.-->
-                            </p>
-                            
-                        </div>
-                        <div class="tit_box_illustration fit_right nomargin">
-                            <img src="../images/sub_hubday_01.png">
-                        </div>
-                    </div>
+                    </p>
+                </div>
+                <div class="tit_box_illustration fit_right nomargin">
+                    <img src="/assets/images/sub_hubday_01.png?v=9f3d57f51b">
                 </div>
             </div>
-            <!-- //section section1 -->
+        </div>
+        <!-- //section 1-->
 
-            <!-- section section2 -->
-            <div class="section bg_gray">
-                <div class="tab_box">
+        <!-- section section2 -->
+        <div class="section bg_gray">
+
+            <!--kg-card-begin: html--><div class="tab_box">
                     <div class="tab_slide">
                         <ul class="tab swiper-wrapper">
                             <li class="swiper-slide"><a href="#hubday_2020" class="selected">2020 ONLINE<br>HUB DAY</a></li>
                             <li class="swiper-slide"><a href="#hubday_2019">2019<br>HUB DAY</a></li>
                         </ul>
                     </div>
-                </div>
-                <div class="article">
+                </div><!--kg-card-end: html--><!--kg-card-begin: html--><div class="article">
+                    <ul class="panel starters_panel"><!--kg-card-end: html--><!--kg-card-begin: html--><div class="article">
                     <ul class="panel starters_panel">
                         <!-- 2020 허브데이 -->
                         <li id="hubday_2020">
@@ -174,13 +240,13 @@
                                         <h4>KB이노베이션허브 운영현황</h4>
                                         <p>2020년 스타트업 스케일업 성과 요약 ▲스타트업 선발 ▲제휴 ▲투자 ▲공간 ▲글로벌 지원 등</p>
                                         <div class="sns_link">
-                                            <a href="javascript:snsShare('facebook','https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_1')"><img src="../images/btn_svg/Facebook_icon02_darkgray.svg"></a>
-                                            <a href="javascript:snsShare('twitter','https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_1')"><img src="../images/btn_svg/Twitter_icon02_darkgray.svg"></a>
-                                            <a href="javascript:snsShare('linkedin','https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_1')"><img src="../images/btn_svg/Linkedin_icon02_darkgray.svg"></a>
+                                            <a href="javascript:snsShare('facebook','https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_1')"><img src="https://kbinnovationhub.com/assets/images/btn_svg/Facebook_icon02_darkgray.svg"></a>
+                                            <a href="javascript:snsShare('twitter','https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_1')"><img src="https://kbinnovationhub.com/assets/images/btn_svg/Twitter_icon02_darkgray.svg"></a>
+                                            <a href="javascript:snsShare('linkedin','https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_1')"><img src="https://kbinnovationhub.com/assets/images/btn_svg/Linkedin_icon02_darkgray.svg"></a>
 
-                                            <a href="javascript:urlCopy('https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_1')" title="url 복사하기"><img src="../images/btn_svg/LinkCopy_icon02_darkgray.svg"></a>
+                                            <a href="javascript:urlCopy('https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_1')" title="url 복사하기"><img src="https://kbinnovationhub.com/assets/images/btn_svg/LinkCopy_icon02_darkgray.svg"></a>
 
-                                            <!--<a href="#"><img src="../images/btn_svg/Good_icon02_red.svg"></a>-->
+                                            <!--<a href="#"><img src="/assets/images/btn_svg/Good_icon02_red.svg"></a>-->
                                         </div>
                                     </div>
                                 </li>
@@ -201,13 +267,13 @@
                                         <h4>KB스타터스 협업 사례 5</h4>
                                         <p>▲알고리즘랩스 ▲핀투비 ▲로민 <br>▲올거나이즈코리아 ▲위대한상사</p>
                                         <div class="sns_link">
-                                            <a href="javascript:snsShare('facebook','https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_2')"><img src="../images/btn_svg/Facebook_icon02_darkgray.svg"></a>
-                                            <a href="javascript:snsShare('twitter','https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_2')"><img src="../images/btn_svg/Twitter_icon02_darkgray.svg"></a>
-                                            <a href="javascript:snsShare('linkedin','https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_2')"><img src="../images/btn_svg/Linkedin_icon02_darkgray.svg"></a>
+                                            <a href="javascript:snsShare('facebook','https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_2')"><img src="https://kbinnovationhub.com/assets/images/btn_svg/Facebook_icon02_darkgray.svg"></a>
+                                            <a href="javascript:snsShare('twitter','https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_2')"><img src="https://kbinnovationhub.com/assets/images/btn_svg/Twitter_icon02_darkgray.svg"></a>
+                                            <a href="javascript:snsShare('linkedin','https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_2')"><img src="https://kbinnovationhub.com/assets/images/btn_svg/Linkedin_icon02_darkgray.svg"></a>
 
-                                            <a href="javascript:urlCopy('https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_2')" title="url 복사하기"><img src="../images/btn_svg/LinkCopy_icon02_darkgray.svg"></a>
+                                            <a href="javascript:urlCopy('https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_2')" title="url 복사하기"><img src="https://kbinnovationhub.com/assets/images/btn_svg/LinkCopy_icon02_darkgray.svg"></a>
                                             
-                                            <!--<a href="#"><img src="../images/btn_svg/Good_icon02_red.svg"></a>-->
+                                            <!--<a href="#"><img src="/assets/images/btn_svg/Good_icon02_red.svg"></a>-->
                                         </div>
                                     </div>
                                 </li>
@@ -222,13 +288,13 @@
                                         <h4>KB스타터스 글로벌 스케일업</h4>
                                         <p>▲센스톤 ▲애디터 ▲크래프트테크놀로지스 <br>▲원투씨엠 ▲마이크로프로텍트 ▲미띵스</p>
                                         <div class="sns_link">
-                                            <a href="javascript:snsShare('facebook','https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_3')"><img src="../images/btn_svg/Facebook_icon02_darkgray.svg"></a>
-                                            <a href="javascript:snsShare('twitter','https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_3')"><img src="../images/btn_svg/Twitter_icon02_darkgray.svg"></a>
-                                            <a href="javascript:snsShare('linkedin','https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_3')"><img src="../images/btn_svg/Linkedin_icon02_darkgray.svg"></a>
+                                            <a href="javascript:snsShare('facebook','https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_3')"><img src="https://kbinnovationhub.com/assets/images/btn_svg/Facebook_icon02_darkgray.svg"></a>
+                                            <a href="javascript:snsShare('twitter','https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_3')"><img src="https://kbinnovationhub.com/assets/images/btn_svg/Twitter_icon02_darkgray.svg"></a>
+                                            <a href="javascript:snsShare('linkedin','https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_3')"><img src="https://kbinnovationhub.com/assets/images/btn_svg/Linkedin_icon02_darkgray.svg"></a>
 
-                                            <a href="javascript:urlCopy('https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_3')" title="url 복사하기"><img src="../images/btn_svg/LinkCopy_icon02_darkgray.svg"></a>
+                                            <a href="javascript:urlCopy('https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_3')" title="url 복사하기"><img src="https://kbinnovationhub.com/assets/images/btn_svg/LinkCopy_icon02_darkgray.svg"></a>
                                             
-                                            <!--<a href="#"><img src="../images/btn_svg/Good_icon02_red.svg"></a>-->
+                                            <!--<a href="#"><img src="/assets/images/btn_svg/Good_icon02_red.svg"></a>-->
                                         </div>
                                     </div>
                                 </li>
@@ -243,21 +309,19 @@
                                         <h4>강남 핀테크 생태계의 중심, KB이노베이션허브</h4>
                                         <p>20년 7월 확대 이전한 강남 신논현의 스타트업 협업공간 소개</p>
                                         <div class="sns_link">
-                                            <a href="javascript:snsShare('facebook','https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_4')"><img src="../images/btn_svg/Facebook_icon02_darkgray.svg"></a>
-                                            <a href="javascript:snsShare('twitter','https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_4')"><img src="../images/btn_svg/Twitter_icon02_darkgray.svg"></a>
-                                            <a href="javascript:snsShare('linkedin','https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_4')"><img src="../images/btn_svg/Linkedin_icon02_darkgray.svg"></a>
-                                            <a href="javascript:urlCopy('https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_4')" title="url 복사하기"><img src="../images/btn_svg/LinkCopy_icon02_darkgray.svg"></a>
+                                            <a href="javascript:snsShare('facebook','https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_4')"><img src="https://kbinnovationhub.com/assets/images/btn_svg/Facebook_icon02_darkgray.svg"></a>
+                                            <a href="javascript:snsShare('twitter','https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_4')"><img src="https://kbinnovationhub.com/assets/images/btn_svg/Twitter_icon02_darkgray.svg"></a>
+                                            <a href="javascript:snsShare('linkedin','https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_4')"><img src="https://kbinnovationhub.com/assets/images/btn_svg/Linkedin_icon02_darkgray.svg"></a>
+                                            <a href="javascript:urlCopy('https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_4')" title="url 복사하기"><img src="https://kbinnovationhub.com/assets/images/btn_svg/LinkCopy_icon02_darkgray.svg"></a>
                                             
-                                            <!--<a href="#"><img src="../images/btn_svg/Good_icon02_red.svg"></a>-->
+                                            <!--<a href="#"><img src="/assets/images/btn_svg/Good_icon02_red.svg"></a>-->
                                         </div>
                                     </div>
                                 </li>
                             </ul>
                             <!-- //허브데이 영상 -->
                         </li>
-                        <!-- //2020 허브데이 -->
-
-                        <!-- 2019 허브데이 -->
+                        <!-- //2020 허브데이 --><!--kg-card-end: html--><!--kg-card-begin: html--><!-- 2019 허브데이 -->
                         <li id="hubday_2019">
                             <div class="tit_box center">
                                 <h3>
@@ -279,13 +343,13 @@
                                         <h4>2019 HUB Day</h4>
                                         <p>플러그앤플레이(PNP)제휴 글로벌 스케일업 프로그램, KB스타터스 글로벌 도전 및 성공사례 소개</p>
                                         <div class="sns_link">
-                                            <a href="javascript:snsShare('facebook','https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_5')"><img src="../images/btn_svg/Facebook_icon02_darkgray.svg"></a>
-                                            <a href="javascript:snsShare('twitter','https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_5')"><img src="../images/btn_svg/Twitter_icon02_darkgray.svg"></a>
-                                            <a href="javascript:snsShare('linkedin','https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_5')"><img src="../images/btn_svg/Linkedin_icon02_darkgray.svg"></a>
+                                            <a href="javascript:snsShare('facebook','https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_5')"><img src="https://kbinnovationhub.com/assets/images/btn_svg/Facebook_icon02_darkgray.svg"></a>
+                                            <a href="javascript:snsShare('twitter','https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_5')"><img src="https://kbinnovationhub.com/assets/images/btn_svg/Twitter_icon02_darkgray.svg"></a>
+                                            <a href="javascript:snsShare('linkedin','https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_5')"><img src="https://kbinnovationhub.com/assets/images/btn_svg/Linkedin_icon02_darkgray.svg"></a>
 
-                                            <a href="javascript:urlCopy('https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_5')" title="url 복사하기"><img src="../images/btn_svg/LinkCopy_icon02_darkgray.svg"></a>
+                                            <a href="javascript:urlCopy('https://kbinnovationhub.com/hubday_2020?HUBDAY_HUB_5')" title="url 복사하기"><img src="https://kbinnovationhub.com/assets/images/btn_svg/LinkCopy_icon02_darkgray.svg"></a>
                                             
-                                            <!--<a href="#"><img src="../images/btn_svg/Good_icon02_red.svg"></a>-->
+                                            <!--<a href="#"><img src="/assets/images/btn_svg/Good_icon02_red.svg"></a>-->
                                         </div>
                                     </div>
                                 </li>
@@ -293,13 +357,8 @@
                             <!-- //허브데이 영상 -->
 
                         </li>
-                        <!-- //2019 허브데이 -->
-                    </ul>
-                </div>
-            </div>
-            <!-- //section section2 -->
-
-            <!-- section section3 -->
+                        <!-- //2019 허브데이 --><!--kg-card-end: html--><!--kg-card-begin: html-->                    </ul>
+                </div><!--kg-card-end: html--><!--kg-card-begin: html--> <!-- section section3 -->
             <div class="section" id="section_2020_starters">
                 <div class="article">
                     <div class="tit_box center">
@@ -317,7 +376,7 @@
                             <li class="swiper-slide">
                                 <a href="#" class="oc_company" data-src="https://player.vimeo.com/video/492321493?autoplay=1">
                                     <div class="thumb">
-                                        <img src="../images/Thumbnail/no4_1_sum.png">
+                                        <img src="https://kbinnovationhub.com/assets/images/thumbnail/no4_1_sum.png">
                                         <!--<div class="dscr">
                                             <span>KB스타터스</span>
                                             <h4>왓섭</h4>
@@ -334,7 +393,7 @@
                                 <a href="#" class="oc_company" data-src="https://player.vimeo.com/video/492322234?autoplay=1">
                                     <!--<iframe src="https://player.vimeo.com/video/492322234" width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>-->
                                     <div class="thumb">
-                                        <img src="../images/Thumbnail/no4_2_sum.png">
+                                        <img src="https://kbinnovationhub.com/assets/images/thumbnail/no4_2_sum.png">
                                         <!--<div class="dscr">
                                             <span>KB스타터스</span>
                                             <h4>앤톡</h4>
@@ -351,7 +410,7 @@
                                 <a href="#" class="oc_company" data-src="https://player.vimeo.com/video/492320642?autoplay=1">
                                 <!--<iframe src="https://player.vimeo.com/video/492320642" width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>-->
                                     <div class="thumb">
-                                        <img src="../images/Thumbnail/no4_3_sum.png">
+                                        <img src="https://kbinnovationhub.com/assets/images/thumbnail/no4_3_sum.png">
                                         <!--<div class="dscr">
                                             <span>KB스타터스</span>
                                             <h4>헬스앤메디슨</h4>
@@ -368,7 +427,7 @@
                                 <a href="#" class="oc_company" data-src="https://player.vimeo.com/video/492321848?autoplay=1">
                                     <!--<iframe src="https://player.vimeo.com/video/492321848" width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>-->
                                     <div class="thumb">
-                                        <img src="../images/Thumbnail/no4_4_sum.png">
+                                        <img src="https://kbinnovationhub.com/assets/images/thumbnail/no4_4_sum.png">
                                         <!--<div class="dscr">
                                             <span>KB스타터스</span>
                                             <h4>에이젠글로벌</h4>
@@ -385,7 +444,7 @@
                                 <a href="#" class="oc_company" data-src="https://player.vimeo.com/video/492321075?autoplay=1">
                                     <!--<iframe src="https://player.vimeo.com/video/492321075" width="640" height="361" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>-->
                                     <div class="thumb">
-                                        <img src="../images/Thumbnail/no4_5_sum.png">
+                                        <img src="https://kbinnovationhub.com/assets/images/thumbnail/no4_5_sum.png">
                                         <!--<div class="dscr">
                                             <span>KB스타터스</span>
                                             <h4>핀카</h4>
@@ -402,7 +461,7 @@
                                 <a href="#" class="oc_company" data-src="https://player.vimeo.com/video/492320006?autoplay=1">
                                     <!--<iframe src="https://player.vimeo.com/video/492320006" width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>-->
                                     <div class="thumb">
-                                        <img src="../images/Thumbnail/no4_6_sum.png">
+                                        <img src="https://kbinnovationhub.com/assets/images/thumbnail/no4_6_sum.png">
                                         <!--<div class="dscr">
                                             <span>KB스타터스</span>
                                             <h4>위대한상사</h4>
@@ -421,7 +480,7 @@
                                 <!-- data-src 안에 영상 주소 -->
                                     <!--<iframe src="https://player.vimeo.com/video/492322494" width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>-->
                                     <div class="thumb">
-                                        <img src="../images/Thumbnail/no4_7_sum.png">
+                                        <img src="https://kbinnovationhub.com/assets/images/thumbnail/no4_7_sum.png">
                                         <!--<div class="dscr">
                                             <span>KB스타터스</span>
                                             <h4>마이크로프로텍트</h4>
@@ -446,44 +505,15 @@
 
             <div class="section bg_gray">
                 <div class="hubday_btn">                                
-                    <a href="../down/KBInnovationhub_leaflet.pdf" target="_blank">2020 리플릿 다운로드<img src="../images/arrR_01.png"></a>
+                    <a href="https://kbinnovationhub.com/assets/pdf/KBInnovationhub_leaflet2020.pdf" target="_blank">2020 리플릿 다운로드<img src="https://kbinnovationhub.com/assets/images/arrR_01.png"></a>
                 </div>
-            </div>
-        </div>
-        <!-- //container -->
+            </div><!--kg-card-end: html-->
 
-        
-
-        <!-- footer -->
-        <div class="footer">
-            <button type="button" class="go_top"><img src="../images/btn_svg/go_top_icon02_darkgray.svg"></button>
-            <div class="footer_conts">
-                <img src="../images/logo_footer.png" class="logo_footer">
-                <p>© Copyright 2020. KB Innovation HUB All Rights Reserved.</p>
-                <div class="sns_link">
-                    <a href="javascript:snsShare('facebook','https://kbinnovationhub.com')"><img src="../images/btn_svg/Facebook_icon03_white.svg"></a>
-                    <a href="javascript:snsShare('twitter','https://kbinnovationhub.com')"><img src="../images/btn_svg/Twitter_icon03_white.svg"></a>
-                    <a href="javascript:snsShare('linkedin','https://kbinnovationhub.com')"><img src="../images/btn_svg/Linkedin_icon03_white.svg"></a>
-                </div>
-            </div>
-            <input id="url_copy">
         </div>
-        <!-- //footer -->
-
-        <!-- layer video -->
-        <div class="video_layer">
-            <button type="button" class="close_video"><img src="../images/close_video.png"></button>
-            <div class="video_pop">
-                <div class="video_box">
-                    <div class="video_conts video_pop_conts">
-                        
-                   </div>
-                </div>
-            </div>
-        </div>
-        <!-- //layer video -->
+        <!-- //section -->
     </div>
-    
+    <!-- //container -->
+
     <script>
 
         $(document).ready(function(){
@@ -567,7 +597,116 @@
                 $(".video_layer").fadeOut("fast");
             })
         })
-    </script>
-</body>
-</html>
+</script>
 
+    </html>
+
+    </div>
+    <!-- //container -->
+
+    <!-- footer -->
+    <div class="footer">
+        <button type="button" class="go_top"><img src="/assets/images/btn_svg/go_top_icon02_darkgray.svg?v=9f3d57f51b"></button>
+        <div class="footer_conts">
+            <img src="/assets/images/logo_footer.png?v=9f3d57f51b" class="logo_footer">
+            <p>© Copyright 2020. KB Innovation HUB All Rights Reserved.</p>
+            <div class="sns_link">
+                <a href="#"><img src="/assets/images/btn_svg/Facebook_icon03_white.svg?v=9f3d57f51b"></a>
+                <a href="#"><img src="/assets/images/btn_svg/Twitter_icon03_white.svg?v=9f3d57f51b"></a>
+                <a href="#"><img src="/assets/images/btn_svg/Linkedin_icon03_white.svg?v=9f3d57f51b"></a>
+            </div>
+        </div>
+        <input id="url_copy">
+    </div>
+    <!-- //footer -->
+    </div>
+
+</body>
+
+
+<script>
+
+        $(document).ready(function(){
+            
+            //탭 슬라이드
+            var tabSlide = new Swiper(".tab_slide", {
+                observeParents: true,
+                touchReleaseOnEdges: true,
+                speed: 300,
+                slidesPerView: 3,
+                spaceBetween: 20,
+                breakpoints: {
+                    768: {
+                    slidesPerView: 5,
+                    spaceBetween: 30,
+                    },
+                }
+            });
+
+            //탭, 패널
+            $(".panel > li:not(" + $(".tab li a.selected").attr("href") +")").hide();
+            $(".tab li a").on("click", function(){
+                event.preventDefault();
+                if($(this).hasClass("selected")){
+                    return;
+                } else {
+                    $(".tab li a").removeClass("selected");
+                    $(this).addClass("selected");
+                    $(".panel > li").hide();
+                    $($(this).attr("href")).fadeIn("fast");
+                }
+
+                
+                //alert($(this).attr("href"))
+                //alert($(this).attr("href").indexOf("2020"));
+                if ( $(this).attr("href").indexOf("2020") > 1 ){
+                    //alert("2020");
+                    $("#section_2020_starters").show();
+                }else
+                    $("#section_2020_starters").hide();
+                
+            });
+            
+            //입주기업 슬라이드
+            var companySlide = new Swiper(".tenant_company", {
+                observeParents: true,
+                // touchReleaseOnEdges: true,
+                speed: 300,
+                slidesPerView: 1,
+                spaceBetween: 10,
+                loop: true,
+                autoplay: {
+                    delay : 5000,
+                },
+                breakpoints: {
+                    768: {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                    },
+                },
+                navigation: {
+                    nextEl: ".button-next",
+                    prevEl: ".button-prev",
+                },
+            });
+
+            //입주기업 동영상
+            $(".oc_company").on("click", function(){
+                event.preventDefault();
+                var videoSrc = $(this).data("src");
+                var video = '<video autoplay controls playsinline id="oc_video">' +
+                            '    <source src="' + videoSrc + '" type="video/mp4">' +
+                            '</video>';
+                var video2 = '<iframe src="' + videoSrc + '" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>';
+                $(".video_pop_conts").append(video2);
+                $(".video_layer").fadeIn("fast");
+            });
+            $(".close_video").on("click", function(){
+                //$(".video_pop_conts video").remove();
+                $(".video_pop_conts iframe").remove();
+                $(".video_layer").fadeOut("fast");
+            })
+        })
+</script>
+
+</html>

@@ -1,4 +1,5 @@
 User-agent: *
-Sitemap: kbinnovationhub.com/sitemap.xml
+Sitemap: https://kbinnovationhub.com/sitemap.xml
 Disallow: /ghost/
 Disallow: /p/
+Disallow: /email/

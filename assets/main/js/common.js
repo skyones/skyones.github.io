@@ -119,9 +119,8 @@ $(document).ready(function(){
                 delay : 3000,
             },
         });
-    } else {
-        return;
-    }
+    } 
+    
     $(".close_oneline").on("click", function(){
         $(".oneline_wrap").slideUp("fast");
         setTimeout(function(){

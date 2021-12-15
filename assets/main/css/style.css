@@ -721,6 +721,11 @@ body {
     word-wrap: break-word;
     max-height: 216px;
 }
+.blog_post{
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+}
 
 .tit_box_illustration.nomargin {
     margin-bottom: 0;

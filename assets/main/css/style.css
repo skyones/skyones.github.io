@@ -3138,8 +3138,9 @@ body {
     .hubday_video li:first-child .video_caption {
         padding: 20px 10px;
     }
-    .hubday_video2 li:first-child .video_caption { padding: 20px 10px; }
-    .hubday_video2 li:nth-child(2) .video_caption { padding: 20px 10px; }
+    .hubday_video2 li { width: 100%; margin-right: 0; margin-bottom: 2%; }
+    .hubday_video2 li:first-child { width: 100%; margin-bottom: 4%; }
+    .hubday_video2 li:nth-child(2)  { width: 100%; margin-bottom: 4%; }
 
     .video_caption .item {
         font-size: 13x;

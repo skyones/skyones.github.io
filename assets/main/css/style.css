@@ -2922,7 +2922,7 @@ body {
         line-height: 1.2;
     }
     .starters_box a {
-        bottom: 10px;
+        bottom: 0px;
         right: 10px;
         font-size: 12px;
     }

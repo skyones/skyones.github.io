@@ -1857,6 +1857,32 @@ body {
     height: 150px;
 }
 
+/* 2022.12.21 */
+.hubday_hd { max-width: 1200px; margin: 0 auto; padding: 65px 0 30px 0; position: relative; }
+.hubday_hd::after { content: ""; display: block; clear: both; }
+.hubday_hd h3 { float: left; font-size: 32px; font-weight: bold; color: #000; line-height: 1.2; margin-right: 70px; }
+.hubday_hd h3 span { display: inline-block; font-size: 24px; color: #FFCC00; }
+.hubday_hd .year_tab { float: left; padding-top: 27px; }
+.hubday_hd .year_tab::after { content: ""; display: block; clear: both; }
+.hubday_hd .year_tab li { float: left; margin-left: 20px; }
+.hubday_hd .year_tab li:first-child { margin-left: 0; }
+.hubday_hd .year_tab li a { display: block; width: 130px; height: 50px; line-height: 50px; text-align: center; font-size: 24px; font-weight: bold; color: #000; background-color: #fff; }
+.hubday_hd .year_tab li a.selected { background-color: #FFCC00; }
+.video_wrap { position: relative; }
+.video_wrap::after { content: ""; display: block; clear: both; }
+.video_wrap .video_big { float: left; width: 840px; padding-top: 20px; }
+.video_wrap .video_list { float: right; width: 332px; position: relative; }
+.hubday_video_list { height: 650px; overflow: hidden; padding-top: 20px; padding-bottom: 20px; }
+.hubday_video_list li { height: 190px; }
+.video_wrap .video_prev { position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: 50px; height: 50px; background: url(/assets/images/arrU_02.png) center no-repeat; background-size: auto 50px; z-index: 11; cursor: pointer; opacity: 0.6; }
+.video_wrap .video_prev:hover { opacity: 1; }
+.video_wrap .video_next { position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); width: 50px; height: 50px; background: url(/assets/images/arrD_02.png) center no-repeat; background-size: auto 50px; z-index: 11; cursor: pointer; opacity: 0.6; }
+.video_wrap .video_next:hover { opacity: 1; }
+.video_wrap .swiper-button-disabled { display: none; }
+.tenant_company_wrap { background-color: #fff; }
+
+.btn_int_down { display: block; width: 300px; height: 50px; margin: 50px auto; }
+
 .btn_menu {
     display: none;
 }
@@ -2519,6 +2545,24 @@ body {
     .gnb_m_wrap {
         display: block;
     }
+
+    /* 2022.12.21 */
+.hubday_hd { padding: 45px 20px 20px 20px; }
+.hubday_hd h3 { float: none; font-size: 26px; margin-right: 0; }
+.hubday_hd h3 span { font-size: 20px; }
+.hubday_hd .year_tab { float: none; padding-top: 20px; }
+.hubday_hd .year_tab li { margin-left: 15px; }
+.hubday_hd .year_tab li a { width: 100px; height: 45px; line-height: 45px; font-size: 20px; }
+
+.video_wrap .video_big { float: none; width: 100%; padding-top: 20px; }
+.video_wrap .video_list { float: none; width: 100%; }
+.hubday_video_list { height: auto; padding-top: 20px; padding-bottom: 20px; }
+.hubday_video_list li { height: auto; }
+.video_wrap .video_prev { top: 50%; left: -20px; transform: translate(0, -50%); width: 40px; height: 40px; background: url(../images/arrL_02.png) center no-repeat; background-size: auto 40px; }
+.video_wrap .video_next { top: 50%; left: 100%; transform: translate(-20px, -50%); width: 40px; height: 40px; background: url(../images/arrR_02.png) center no-repeat; background-size: auto 40px; }
+.video_wrap .video_next:hover { opacity: 0.6; }
+
+.btn_int_down { display: block; width: 240px; height: 45px; margin: 30px auto; }
 }
 
 /********** mobile ************/
@@ -3218,4 +3262,21 @@ body {
     .for_m {
         display: block;
     }
+
+/* 2022.12.21 */
+.hubday_hd { padding: 20px 10px 10px 10px; }
+.hubday_hd h3 { font-size: 22px; margin-right: 0; }
+.hubday_hd h3 span { font-size: 16px; }
+
+.hubday_hd .year_tab li { width: 23.5%; margin-left: 2%; margin-bottom: 2%; }
+.hubday_hd .year_tab li:nth-child(4n+1) { margin-left: 0; }
+.hubday_hd .year_tab li a { width: 100%; height: 40px; line-height: 40px; font-size: 16px; }
+
+.video_wrap .video_big { padding-top: 10px; }
+.hubday_video_list { padding-top: 20px; padding-bottom: 10px; }
+.hubday_video_list li { height: auto; }
+.video_wrap .video_prev { left: -15px; width: 30px; height: 30px; background-size: auto 30px; }
+.video_wrap .video_next { transform: translate(-15px, -50%); width: 30px; height: 30px;background-size: auto 30px; }
+
+.btn_int_down { width: 200px; height: 40px; margin: 20px auto; }
 }
